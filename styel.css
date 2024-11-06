@@ -1,0 +1,168 @@
+/* Front page */
+
+.landing{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.landing #service{
+    letter-spacing: .2cm;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/* Front page main content */
+
+.landing h1{
+    font-size: 3cm;
+    text-align: center;
+    line-height: .7cm;
+}
+
+.landing #para{
+    font-size: larger;
+    text-align: center;
+}
+
+/* Front page button */
+
+.landing #knowmore{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+
+.landing #knowmore i{
+    color: black;
+    margin-left: 10px;
+    font-size: xx-large;
+}
+
+/* Courses avaliable */
+
+.courses{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    line-height: .6cm;
+}
+
+.courses h1{
+    font-size: 2cm;
+}
+
+.courses h2{
+    font-size: xx-large;
+}
+
+.courses p{
+    font-size: larger;
+    text-align: center;
+}
+
+.courses i{
+    font-size: larger;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+/* Conclusion page */ 
+
+.conclusion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    line-height: .6cm;
+}
+
+.conclusion #p{
+    text-transform: uppercase;
+    letter-spacing: .2cm;
+    font-size: larger;
+}
+
+.conclusion h1{
+    font-size: 2cm;
+}
+
+/* Conclusion heading */
+
+.conclusion h2{
+    font-size: 1cm;
+}
+
+.conclusion p{
+    font-size: larger;
+    text-align: center;
+}
+
+/* Type of courses */
+
+.conclusion ul li{
+    list-style: none;
+    font-size: larger;
+    line-height: 1cm;
+}
+
+.conclusion ul li i{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.conclusion button{
+    line-height: 1cm;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-size: x-large;
+}
+
+.conclusion #ready{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* contect */
+
+.contect{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    line-height: .6cm;
+    gap: 30px;
+}
+
+.contect a{
+    color: black;
+    font-size: x-large;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* copy */ 
+.copy{
+    font-size: larger;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
