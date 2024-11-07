@@ -134,6 +134,10 @@
     font-size: x-large;
 }
 
+.conclusion button{
+    margin-left: 10px;
+}
+
 .conclusion #ready{
     margin-top: 30px;
     margin-bottom: 30px;
